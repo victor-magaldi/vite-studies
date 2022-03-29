@@ -7,5 +7,5 @@ Aplicação feita para treinar o uso do Vite para startar um projeto em Reactjs
 Basta seguir a documentação do Vite
 
 ```bash
-yarn create vite
+    yarn create vite
 ```
