@@ -23,5 +23,10 @@ export default function Clock() {
   if (loading) return "Loading...";
   if (error) return `Error! ${error.message}`;
   console.log("data------------>", data);
-  return <div>Clock = {count}</div>;
+  return (
+    <div>
+      Clock = {count}
+      <div>{data.character}</div>
+    </div>
+  );
 }
