@@ -18,6 +18,7 @@ import Clock from "./components/Clock";
 import ReactTooltip from "react-tooltip";
 import { Routes, Route, Link } from "react-router-dom";
 import Teste from "./pages/Teste";
+import User from "./pages/User";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -41,10 +42,13 @@ function App() {
           <ReactTooltip backgroundColor="#f2f2f2" textColor="#000" />
           <Link to="/teste">teste</Link>
           <Link to="/">home</Link>
+          <Link to="/user/5">usuário com parametro 7</Link>
+
           <h2>conteúdo react router Dom</h2>
 
           <Routes>
             <Route path="/teste" element={<Teste />} />
+            <Route path="/user/:id" element={<User />} />
           </Routes>
         </header>
       </div>
