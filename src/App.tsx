@@ -15,6 +15,7 @@ const client = new ApolloClient({
 import "./App.css";
 import { HelloWorld } from "./components/HelloWorld";
 import Clock from "./components/Clock";
+import ReactTooltip from "react-tooltip";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,6 +35,8 @@ function App() {
             </button>
           </p>
           <Clock />
+          <p data-tip="hello world">react-tooltip</p>
+          <ReactTooltip backgroundColor="#f2f2f2" textColor="#000" />
         </header>
       </div>
     </ApolloProvider>
