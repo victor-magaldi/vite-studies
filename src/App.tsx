@@ -16,6 +16,8 @@ import "./App.css";
 import { HelloWorld } from "./components/HelloWorld";
 import Clock from "./components/Clock";
 import ReactTooltip from "react-tooltip";
+import { Routes, Route, Link } from "react-router-dom";
+import Teste from "./pages/Teste";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -37,6 +39,13 @@ function App() {
           <Clock />
           <p data-tip="hello world">react-tooltip</p>
           <ReactTooltip backgroundColor="#f2f2f2" textColor="#000" />
+          <Link to="/teste">teste</Link>
+          <Link to="/">home</Link>
+          <h2>conteúdo react router Dom</h2>
+
+          <Routes>
+            <Route path="/teste" element={<Teste />} />
+          </Routes>
         </header>
       </div>
     </ApolloProvider>
