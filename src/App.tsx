@@ -20,6 +20,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Teste from "./pages/Teste";
 import User from "./pages/User";
 import Count from "./components/Count";
+import { ReactTab } from "./pages/ReactTab";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -47,6 +48,7 @@ function App() {
             usuário com parametro 7
           </Link>
           <Link to="/countdown">react-countdown</Link>
+          <Link to="/react-tabs">react-tabs</Link>
 
           <h2>conteúdo react router Dom</h2>
 
@@ -54,6 +56,7 @@ function App() {
             <Route path="/teste" element={<Teste />} />
             <Route path="/user/:id" element={<User />} />
             <Route path="/countdown" element={<Count />} />
+            <Route path="/react-tabs" element={<ReactTab />} />
           </Routes>
         </header>
       </div>
