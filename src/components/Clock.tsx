@@ -20,8 +20,9 @@ export default function Clock() {
     clearInterval(interval);
   }, 1000);
 
-  if (loading) return "Loading...";
-  if (error) return `Error! ${error.message}`;
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error! ${error.message}</p>;
+
   console.log("data------------>", data);
   return (
     <div>
