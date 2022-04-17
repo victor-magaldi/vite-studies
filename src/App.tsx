@@ -42,7 +42,9 @@ function App() {
           <ReactTooltip backgroundColor="#f2f2f2" textColor="#000" />
           <Link to="/teste">teste</Link>
           <Link to="/">home</Link>
-          <Link to="/user/5">usuário com parametro 7</Link>
+          <Link to="/user/5?brand=minha-marca-teste">
+            usuário com parametro 7
+          </Link>
 
           <h2>conteúdo react router Dom</h2>
 
