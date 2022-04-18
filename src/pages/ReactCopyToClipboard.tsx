@@ -1,14 +1,26 @@
+import { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export function ReactCopyToClipboard() {
+  const [text, setText] = useState("teste");
   return (
-    <CopyToClipboard
-      text={"Meu texto copiado"}
-      onCopy={() => {
-        console.log("copy");
-      }}
-    >
-      <span>clique aqui para copiar : Meu texto copiado</span>
-    </CopyToClipboard>
+    <>
+      <input
+        type="text"
+        onChange={(e) => {
+          setText(e.target.value);
+        }}
+        value={text}
+        placeholder="Insira seu texto"
+      />
+      <CopyToClipboard
+        text={text}
+        onCopy={() => {
+          console.log("copy");
+        }}
+      >
+        <span>clique aqui para copiar : {text}</span>
+      </CopyToClipboard>
+    </>
   );
 }
