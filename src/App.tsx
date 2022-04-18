@@ -21,6 +21,7 @@ import Teste from "./pages/Teste";
 import User from "./pages/User";
 import Count from "./components/Count";
 import { ReactTab } from "./pages/ReactTab";
+import { ReactCopyToClipboard } from "./pages/ReactCopyToClipboard";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -49,14 +50,18 @@ function App() {
           </Link>
           <Link to="/countdown">react-countdown</Link>
           <Link to="/react-tabs">react-tabs</Link>
+          <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
 
           <h2>conteúdo react router Dom</h2>
-
           <Routes>
             <Route path="/teste" element={<Teste />} />
             <Route path="/user/:id" element={<User />} />
             <Route path="/countdown" element={<Count />} />
             <Route path="/react-tabs" element={<ReactTab />} />
+            <Route
+              path="/react-copy-to-clipboard"
+              element={<ReactCopyToClipboard />}
+            />
           </Routes>
         </header>
       </div>
