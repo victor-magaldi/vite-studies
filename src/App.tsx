@@ -45,7 +45,6 @@ function App() {
           <Clock />
 
           <nav className="nav">
-            <Link to="/teste">teste</Link>
             <Link to="/">home</Link>
             <Link to="/user/5?brand=minha-marca-teste">
               usuário com parametro 5
@@ -59,7 +58,6 @@ function App() {
 
           <h2>conteúdo react router Dom</h2>
           <Routes>
-            <Route path="/teste" element={<Teste />} />
             <Route path="/user/:id" element={<User />} />
             <Route path="/countdown" element={<Count />} />
             <Route path="/react-tabs" element={<ReactTab />} />
