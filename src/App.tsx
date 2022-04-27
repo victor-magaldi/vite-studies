@@ -54,7 +54,7 @@ function App() {
             <Link to="/react-tabs">react-tabs</Link>
             <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
             <Link to="/react-calendar">react calendar</Link>
-            <Link to="/react-tooltip">react calendar</Link>
+            <Link to="/react-tooltip">react tooltip</Link>
             <Link to="/react-select">react-select</Link>
           </nav>
 
