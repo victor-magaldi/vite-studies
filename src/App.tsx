@@ -24,6 +24,7 @@ import { ReactTab } from "./pages/ReactTab";
 import { ReactCopyToClipboard } from "./pages/ReactCopyToClipboard";
 import { ReactCaledar } from "./pages/ReactCalendar";
 import Tooltip from "./pages/Tooltip";
+import ReactSelect from "./pages/ReactSelect";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -54,6 +55,7 @@ function App() {
             <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
             <Link to="/react-calendar">react calendar</Link>
             <Link to="/react-tooltip">react calendar</Link>
+            <Link to="/react-select">react-select</Link>
           </nav>
 
           <h2>conteúdo react router Dom</h2>
@@ -67,6 +69,7 @@ function App() {
             />
             <Route path="/react-calendar" element={<ReactCaledar />} />
             <Route path="/react-tooltip" element={<Tooltip />} />
+            <Route path="/react-select" element={<ReactSelect />} />
           </Routes>
         </header>
       </div>
