@@ -44,15 +44,17 @@ function App() {
           <Clock />
           <p data-tip="hello world">react-tooltip</p>
           <ReactTooltip backgroundColor="#f2f2f2" textColor="#000" />
-          <Link to="/teste">teste</Link>
-          <Link to="/">home</Link>
-          <Link to="/user/5?brand=minha-marca-teste">
-            usuário com parametro 7
-          </Link>
-          <Link to="/countdown">react-countdown</Link>
-          <Link to="/react-tabs">react-tabs</Link>
-          <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
-          <Link to="/react-calendar">react calendar</Link>
+          <nav className="nav">
+            <Link to="/teste">teste</Link>
+            <Link to="/">home</Link>
+            <Link to="/user/5?brand=minha-marca-teste">
+              usuário com parametro 5
+            </Link>
+            <Link to="/countdown">react-countdown</Link>
+            <Link to="/react-tabs">react-tabs</Link>
+            <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
+            <Link to="/react-calendar">react calendar</Link>
+          </nav>
 
           <h2>conteúdo react router Dom</h2>
           <Routes>
