@@ -22,6 +22,7 @@ import User from "./pages/User";
 import Count from "./components/Count";
 import { ReactTab } from "./pages/ReactTab";
 import { ReactCopyToClipboard } from "./pages/ReactCopyToClipboard";
+import { ReactCaledar } from "./pages/ReactCalendar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -51,6 +52,7 @@ function App() {
           <Link to="/countdown">react-countdown</Link>
           <Link to="/react-tabs">react-tabs</Link>
           <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
+          <Link to="/react-calendar">react calendar</Link>
 
           <h2>conteúdo react router Dom</h2>
           <Routes>
@@ -62,6 +64,7 @@ function App() {
               path="/react-copy-to-clipboard"
               element={<ReactCopyToClipboard />}
             />
+            <Route path="/react-calendar" element={<ReactCaledar />} />
           </Routes>
         </header>
       </div>
