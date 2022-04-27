@@ -17,7 +17,6 @@ import { HelloWorld } from "./components/HelloWorld";
 import Clock from "./components/Clock";
 
 import { Routes, Route, Link } from "react-router-dom";
-import Teste from "./pages/Teste";
 import User from "./pages/User";
 import Count from "./components/Count";
 import { ReactTab } from "./pages/ReactTab";
@@ -25,6 +24,7 @@ import { ReactCopyToClipboard } from "./pages/ReactCopyToClipboard";
 import { ReactCaledar } from "./pages/ReactCalendar";
 import Tooltip from "./pages/Tooltip";
 import ReactSelect from "./pages/ReactSelect";
+import { Roullete } from "./pages/Roullete";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -56,6 +56,7 @@ function App() {
             <Link to="/react-calendar">react calendar</Link>
             <Link to="/react-tooltip">react tooltip</Link>
             <Link to="/react-select">react-select</Link>
+            <Link to="/react-custom-roulette">react-custom-roulette</Link>
           </nav>
 
           <h2>conteúdo react router Dom</h2>
@@ -70,6 +71,7 @@ function App() {
             <Route path="/react-calendar" element={<ReactCaledar />} />
             <Route path="/react-tooltip" element={<Tooltip />} />
             <Route path="/react-select" element={<ReactSelect />} />
+            <Route path="/react-custom-roulette" element={<Roullete />} />
           </Routes>
         </header>
       </div>
