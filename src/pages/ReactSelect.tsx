@@ -9,5 +9,5 @@ export default function ReactSelect() {
     { value: "orchestra", label: "Orchestra" },
   ];
 
-  return <Select options={options} components={makeAnimated()} />;
+  return <Select   options={options} components={makeAnimated()} />;
 }
