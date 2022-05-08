@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { Wheel } from "react-custom-roulette";
 
-const data = [{ option: "Prémio" }, { option: "1" }, { option: "2" }];
+const data = [
+  { option: "primeiro" },
+  { option: "segundo" },
+  { option: "terceiro" },
+];
 
 export const Roullete = () => {
   const [mustSpin, setMustSpin] = useState(false);
