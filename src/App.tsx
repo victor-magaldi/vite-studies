@@ -6,7 +6,6 @@ const client = new ApolloClient({
 });
 
 import "./App.css";
-import { HelloWorld } from "./components/HelloWorld";
 import Clock from "./components/Clock";
 
 import { Routes, Route, Link } from "react-router-dom";
