@@ -17,45 +17,49 @@ import { ReactCaledar } from "./pages/ReactCalendar";
 import Tooltip from "./pages/Tooltip";
 import ReactSelect from "./pages/ReactSelect";
 import { Roullete } from "./pages/Roullete";
+import { Provider as ProviderRedux } from "react-redux";
+import store from "./store";
 
 function App() {
   return (
-    <ApolloProvider client={client}>
-      <div className="App">
-        <header className="App-header">
-          <Clock />
+    <ProviderRedux store={store}>
+      <ApolloProvider client={client}>
+        <div className="App">
+          <header className="App-header">
+            <Clock />
 
-          <nav className="nav">
-            <Link to="/">home</Link>
-            <Link to="/user/5?brand=minha-marca-teste">
-              usuário com parametro 5
-            </Link>
-            <Link to="/countdown">react-countdown</Link>
-            <Link to="/react-tabs">react-tabs</Link>
-            <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
-            <Link to="/react-calendar">react calendar</Link>
-            <Link to="/react-tooltip">react tooltip</Link>
-            <Link to="/react-select">react-select</Link>
-            <Link to="/react-custom-roulette">react-custom-roulette</Link>
-          </nav>
+            <nav className="nav">
+              <Link to="/">home</Link>
+              <Link to="/user/5?brand=minha-marca-teste">
+                usuário com parametro 5
+              </Link>
+              <Link to="/countdown">react-countdown</Link>
+              <Link to="/react-tabs">react-tabs</Link>
+              <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
+              <Link to="/react-calendar">react calendar</Link>
+              <Link to="/react-tooltip">react tooltip</Link>
+              <Link to="/react-select">react-select</Link>
+              <Link to="/react-custom-roulette">react-custom-roulette</Link>
+            </nav>
 
-          <h2>conteúdo react router Dom</h2>
-          <Routes>
-            <Route path="/user/:id" element={<User />} />
-            <Route path="/countdown" element={<Count />} />
-            <Route path="/react-tabs" element={<ReactTab />} />
-            <Route
-              path="/react-copy-to-clipboard"
-              element={<ReactCopyToClipboard />}
-            />
-            <Route path="/react-calendar" element={<ReactCaledar />} />
-            <Route path="/react-tooltip" element={<Tooltip />} />
-            <Route path="/react-select" element={<ReactSelect />} />
-            <Route path="/react-custom-roulette" element={<Roullete />} />
-          </Routes>
-        </header>
-      </div>
-    </ApolloProvider>
+            <h2>conteúdo react router Dom</h2>
+            <Routes>
+              <Route path="/user/:id" element={<User />} />
+              <Route path="/countdown" element={<Count />} />
+              <Route path="/react-tabs" element={<ReactTab />} />
+              <Route
+                path="/react-copy-to-clipboard"
+                element={<ReactCopyToClipboard />}
+              />
+              <Route path="/react-calendar" element={<ReactCaledar />} />
+              <Route path="/react-tooltip" element={<Tooltip />} />
+              <Route path="/react-select" element={<ReactSelect />} />
+              <Route path="/react-custom-roulette" element={<Roullete />} />
+            </Routes>
+          </header>
+        </div>
+      </ApolloProvider>
+    </ProviderRedux>
   );
 }
 
