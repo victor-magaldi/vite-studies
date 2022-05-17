@@ -8,10 +8,16 @@ export function Redux() {
   const increment = () => {
     dispatch({ type: "INCREMENTAR" });
   };
+  const decrement = () => {
+    dispatch({ type: "DECREMENTAR" });
+  };
   return (
     <div>
-      Redux
-      <button onClick={increment}>Increment</button>
+      <h5>Redux</h5>
+      <button onClick={increment}>INCREMENTAR</button> <br />
+      <button onClick={decrement}>DECREMENTAR</button>
+      <br />
+      state Value {String(state)}
     </div>
   );
 }
