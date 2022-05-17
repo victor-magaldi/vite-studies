@@ -14,8 +14,8 @@ export function Redux() {
   return (
     <div>
       <h5>Redux</h5>
-      <button onClick={increment}>INCREMENTAR</button> <br />
       <button onClick={decrement}>DECREMENTAR</button>
+      <button onClick={increment}>INCREMENTAR</button>
       <br />
       state Value {String(state)}
     </div>
