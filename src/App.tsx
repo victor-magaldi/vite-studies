@@ -19,6 +19,7 @@ import ReactSelect from "./pages/ReactSelect";
 import { Roullete } from "./pages/Roullete";
 import { Provider as ProviderRedux } from "react-redux";
 import store from "./store";
+import { Redux } from "./pages/Redux";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
               <Link to="/react-tooltip">react tooltip</Link>
               <Link to="/react-select">react-select</Link>
               <Link to="/react-custom-roulette">react-custom-roulette</Link>
+              <Link to="/redux">react-redux</Link>
             </nav>
 
             <h2>conteúdo react router Dom</h2>
@@ -55,6 +57,7 @@ function App() {
               <Route path="/react-tooltip" element={<Tooltip />} />
               <Route path="/react-select" element={<ReactSelect />} />
               <Route path="/react-custom-roulette" element={<Roullete />} />
+              <Route path="/redux" element={<Redux />} />
             </Routes>
           </header>
         </div>
