@@ -14,3 +14,10 @@ Basta seguir a documentação do Vite
 ```bash
     yarn create vite
 ```
+
+# Tecnologias
+
+Foram usadas diversas tecnologias do ecossistema react para estudos:
+
+- React + Typescript
+- redux

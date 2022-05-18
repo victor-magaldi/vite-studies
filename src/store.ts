@@ -11,7 +11,8 @@ function reducer(state = 0, action: { type: string }) {
       return state;
   }
 }
-export default configureStore({
+export const store = configureStore({
   reducer: reducer,
   devTools: true
 });
+store.dispatch()
