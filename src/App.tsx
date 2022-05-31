@@ -18,7 +18,7 @@ import Tooltip from "./pages/Tooltip";
 import ReactSelect from "./pages/ReactSelect";
 import { Roullete } from "./pages/Roullete";
 import { Provider as ProviderRedux } from "react-redux";
-import store from "./store";
+import { store } from "./store";
 import { Redux } from "./pages/Redux";
 
 function App() {

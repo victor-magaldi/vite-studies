@@ -13,6 +13,5 @@ function reducer(state = 0, action: { type: string }) {
 }
 export const store = configureStore({
   reducer: reducer,
-  devTools: true
+  devTools: true,
 });
-store.dispatch()
