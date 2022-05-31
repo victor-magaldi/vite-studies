@@ -14,6 +14,7 @@
     "@types/react-copy-to-clipboard": "^5.0.2",
     "@types/react-motion": "^0.0.33",
     "graphql": "^16.3.0",
+    "gsap": "^3.10.4",
     "react": "^17.0.2",
     "react-calendar": "^3.7.0",
     "react-copy-to-clipboard": "^5.1.0",
