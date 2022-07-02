@@ -19,5 +19,9 @@ Basta seguir a documentação do Vite
 
 Foram usadas diversas tecnologias do ecossistema react para estudos:
 
-- React + Typescript
+- React 
 - redux
+- apollo client
+- typescript
+
+
