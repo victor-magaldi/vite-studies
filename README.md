@@ -1,6 +1,6 @@
 # Vite-Studies
 
-Aplicação feita para treinar o uso do Vite para startar um projeto em Reactjs
+Aplicação feita para experimentar o Vite, e testar várias outras tecnologias do ecossistemas React + Typescript
 
 ## objetivos
 
