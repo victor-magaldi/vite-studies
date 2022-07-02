@@ -4,8 +4,8 @@ Aplicação feita para experimentar o Vite, e testar várias outras tecnologias 
 
 ## objetivos
 
-- esse app foi criado priemeiramente para testar como o vite e compara com CRA.
-- Como o vite apresentou uma build extremamente rápida, foi usada para testar libs
+- esse app foi criado primeiramente para testar como o vite e compara com CRA.
+- Como o vite apresentou uma build extremamente rápida, foi usada para testar libs mais usadas do mercado
 
 # Instalação
 
