@@ -21,6 +21,7 @@ import { Provider as ProviderRedux } from "react-redux";
 import { store } from "./store";
 import { Redux } from "./pages/Redux";
 import { DatePickerPage } from "./pages/DatePickerPage";
+import { ReactTimerPickerPage } from "./pages/ReactTimerPickerPage";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
               <Route path="/react-custom-roulette" element={<Roullete />} />
               <Route path="/redux" element={<Redux />} />
               <Route path="/date-picker" element={<DatePickerPage />} />
+              <Route path="/timer-picker" element={<ReactTimerPickerPage />} />
             </Routes>
           </header>
         </div>
