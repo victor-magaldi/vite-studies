@@ -20,7 +20,7 @@ import { Roullete } from "./pages/Roullete";
 import { Provider as ProviderRedux } from "react-redux";
 import { store } from "./store";
 import { Redux } from "./pages/Redux";
-import { DatePickerPage } from "./pages/DatePicker";
+import { DatePickerPage } from "./pages/DatePickerPage";
 
 function App() {
   return (
