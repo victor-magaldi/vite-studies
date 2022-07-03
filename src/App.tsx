@@ -42,6 +42,7 @@ function App() {
               <Link to="/react-select">react-select</Link>
               <Link to="/react-custom-roulette">react-custom-roulette</Link>
               <Link to="/redux">react-redux</Link>
+              <Link to="/date-picker">date-picker</Link>
             </nav>
 
             <h2>conteúdo react router Dom</h2>
