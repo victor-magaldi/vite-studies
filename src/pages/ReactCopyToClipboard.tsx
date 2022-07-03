@@ -17,9 +17,10 @@ export function ReactCopyToClipboard() {
         text={text}
         onCopy={() => {
           console.log("copy");
+          
         }}
       >
-        <span>clique aqui para copiar : {text}</span>
+        <button style={{cursor:"copy"}} >clique aqui para copiar : {text}</button>
       </CopyToClipboard>
     </>
   );
