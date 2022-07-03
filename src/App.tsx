@@ -20,7 +20,7 @@ import { Roullete } from "./pages/Roullete";
 import { Provider as ProviderRedux } from "react-redux";
 import { store } from "./store";
 import { Redux } from "./pages/Redux";
-import { DatePicker } from "./pages/DatePicker";
+import { DatePickerPage } from "./pages/DatePicker";
 
 function App() {
   return (
@@ -60,7 +60,7 @@ function App() {
               <Route path="/react-select" element={<ReactSelect />} />
               <Route path="/react-custom-roulette" element={<Roullete />} />
               <Route path="/redux" element={<Redux />} />
-              <Route path="/date-picker" element={<DatePicker />} />
+              <Route path="/date-picker" element={<DatePickerPage />} />
             </Routes>
           </header>
         </div>
