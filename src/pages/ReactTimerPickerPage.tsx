@@ -3,7 +3,7 @@ import TimePicker from "react-time-picker";
 
 export const ReactTimerPickerPage = () => {
   const [value, onChange] = useState("10:00");
-  console.log("on", onChange)
+  console.log("on", onChange, value);
 
   return (
     <div>
