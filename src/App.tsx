@@ -66,7 +66,7 @@ function App() {
               <Route path="/redux" element={<Redux />} />
               <Route path="/date-picker" element={<DatePickerPage />} />
               <Route path="/timer-picker" element={<ReactTimerPickerPage />} />
-              <Route path="/timer-picker" element={<ReactDragAndDrop />} />
+              <Route path="/drag-drop" element={<ReactDragAndDrop />} />
             </Routes>
           </header>
         </div>
