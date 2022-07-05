@@ -23,6 +23,7 @@ import { Redux } from "./pages/Redux";
 import { DatePickerPage } from "./pages/ReactDatePickerPage";
 import { ReactTimerPickerPage } from "./pages/ReactTimerPickerPage";
 import { ReactDragAndDrop } from "./pages/ReactDragAndDrop";
+import { ReactQRCode } from "./pages/ReactQRCode";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
               <Route path="/date-picker" element={<DatePickerPage />} />
               <Route path="/timer-picker" element={<ReactTimerPickerPage />} />
               <Route path="/drag-drop" element={<ReactDragAndDrop />} />
+              <Route path="/react-qr-code" element={<ReactQRCode />} />
             </Routes>
           </header>
         </div>
