@@ -7,7 +7,7 @@ export const ReactQRCode = () => {
       <QRCode
         size={256}
         style={{ height: "auto", maxWidth: "100%", width: "100%" }}
-        value={"https://github.com/rosskhanas/react-qr-code#readme"}
+        value={"https://github.com/victor-magaldi"}
       />
     </div>
   );
