@@ -48,6 +48,7 @@ function App() {
               <Link to="/date-picker">date-picker</Link>
               <Link to="/timer-picker">timer-picker</Link>
               <Link to="/drag-drop">React Drag and drop</Link>
+              <Link to="/react-qr-code">react-qr-code</Link>
             </nav>
 
             <h2>conteúdo react router Dom</h2>
