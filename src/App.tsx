@@ -47,7 +47,7 @@ function App() {
               <Link to="/redux">react-redux</Link>
               <Link to="/date-picker">date-picker</Link>
               <Link to="/timer-picker">timer-picker</Link>
-              <Link to="/timer-picker">React Drag and drop</Link>
+              <Link to="/drag-drop">React Drag and drop</Link>
             </nav>
 
             <h2>conteúdo react router Dom</h2>
