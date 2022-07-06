@@ -72,7 +72,7 @@ function App() {
               <Route path="/timer-picker" element={<ReactTimerPickerPage />} />
               <Route path="/drag-drop" element={<ReactDragAndDrop />} />
               <Route path="/react-qr-code" element={<ReactQRCode />} />
-              <Route path="/react-qr-code" element={<ReactIntlPage />} />
+              <Route path="/react-intl" element={<ReactIntlPage />} />
             </Routes>
           </header>
         </div>
