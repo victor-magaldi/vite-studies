@@ -25,6 +25,7 @@ import { ReactTimerPickerPage } from "./pages/ReactTimerPickerPage";
 import { ReactDragAndDrop } from "./pages/ReactDragAndDrop";
 import { ReactQRCode } from "./pages/ReactQRCode";
 import { ReactIntlPage } from "./pages/ReactIntlPage";
+import { Swr } from "./pages/Swr";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
               <Link to="/drag-drop">React Drag and drop</Link>
               <Link to="/react-qr-code">react-qr-code</Link>
               <Link to="/react-intl">react-intl</Link>
+              <Link to="/swr">swr</Link>
             </nav>
 
             <h2>conteúdo react router Dom</h2>
@@ -73,6 +75,7 @@ function App() {
               <Route path="/drag-drop" element={<ReactDragAndDrop />} />
               <Route path="/react-qr-code" element={<ReactQRCode />} />
               <Route path="/react-intl" element={<ReactIntlPage />} />
+              <Route path="/swr" element={<Swr />} />
             </Routes>
           </header>
         </div>
