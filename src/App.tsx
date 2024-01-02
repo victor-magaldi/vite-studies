@@ -11,7 +11,6 @@ import Clock from "./components/Clock";
 import { Routes, Route, Link } from "react-router-dom";
 import User from "./pages/User";
 import Count from "./components/Count";
-import { ReactTab } from "./pages/ReactTab";
 import { ReactCopyToClipboard } from "./pages/ReactCopyToClipboard";
 import { ReactCaledar } from "./pages/ReactCalendar";
 import Tooltip from "./pages/Tooltip";
@@ -57,7 +56,6 @@ function App() {
             <Routes>
               <Route path="/user/:id" element={<User />} />
               <Route path="/countdown" element={<Count />} />
-              <Route path="/react-tabs" element={<ReactTab />} />
               <Route
                 path="/react-copy-to-clipboard"
                 element={<ReactCopyToClipboard />}
