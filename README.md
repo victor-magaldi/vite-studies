@@ -23,6 +23,8 @@ Foram usadas diversas tecnologias do ecossistema react para estudos:
 - redux
 - apollo client
 - typescript
-- swr
+- SWR
+- React-calendar
+  
 
 
