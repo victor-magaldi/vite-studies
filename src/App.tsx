@@ -55,8 +55,6 @@ function App() {
               <Link to="/react-intl">react-intl</Link>
               <Link to="/swr">swr</Link>
             </nav>
-
-            <h2>conteúdo react router Dom</h2>
             <Routes>
               <Route path="/user/:id" element={<User />} />
               <Route path="/countdown" element={<Count />} />

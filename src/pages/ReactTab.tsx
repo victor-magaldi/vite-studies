@@ -4,9 +4,9 @@ import "react-tabs/style/react-tabs.css";
 
 export function ReactTab() {
   return (
-    <Tabs>
+   
       <h1>teste</h1>
-    </Tabs>
+    
   );
 }
 console.log(ReactTab, Tabs);
