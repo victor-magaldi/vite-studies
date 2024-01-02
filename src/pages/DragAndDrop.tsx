@@ -2,8 +2,9 @@ import React, { useState, DragEvent } from 'react';
 
 interface DragAndDropProps {}
 
-const DragAndDrop: React.FC<DragAndDropProps> = () => {
+export function DragAndDrop(){
   const [dragging, setDragging] = useState(false);
+  const [tasks, setTasks] = useState<any>([]);
 
   const handleDragStart = (e: DragEvent<HTMLDivElement>) => {
     e.dataTransfer.setData('text/plain', e.target?.id);
@@ -86,5 +87,3 @@ const DragAndDrop: React.FC<DragAndDropProps> = () => {
     </div>
   );
 };
-
-export default DragAndDrop;
