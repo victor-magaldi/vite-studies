@@ -24,7 +24,8 @@ Foram usadas diversas tecnologias do ecossistema react para estudos:
 - apollo client
 - typescript
 - SWR
-- React-calendar
-  
-
-
+- react-calendar
+- react-copy-to-clipboard
+- react-countdown
+- react-custom-roulette  
+- react-datepicker 
