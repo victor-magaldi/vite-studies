@@ -87,4 +87,4 @@ const DragAndDrop: React.FC<DragAndDropProps> = () => {
   );
 };
 
-export default DragAndDrop;tyyp
+export default DragAndDrop;
