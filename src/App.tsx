@@ -41,7 +41,6 @@ function App() {
                 usuário com parametro 5
               </Link>
               <Link to="/countdown">react-countdown</Link>
-              <Link to="/react-tabs">react-tabs</Link>
               <Link to="/react-copy-to-clipboard">react-copy-to-clipboard</Link>
               <Link to="/react-calendar">react calendar</Link>
               <Link to="/react-tooltip">react tooltip</Link>

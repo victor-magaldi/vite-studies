@@ -16,7 +16,7 @@ export function ReactCopyToClipboard() {
       <CopyToClipboard
         text={text}
         onCopy={() => {
-          console.log("copy");
+          console.log("Lorem ipsum");
           
         }}
       >
