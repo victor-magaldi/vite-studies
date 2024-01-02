@@ -25,6 +25,7 @@ import { ReactDragAndDrop } from "./pages/ReactDragAndDrop";
 import { ReactQRCode } from "./pages/ReactQRCode";
 import { ReactIntlPage } from "./pages/ReactIntlPage";
 import { Swr } from "./pages/Swr";
+import { DragAndDrop } from "./pages/DragAndDrop";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
               <Link to="/redux">react-redux</Link>
               <Link to="/date-picker">date-picker</Link>
               <Link to="/timer-picker">timer-picker</Link>
+              <Link to="DragAndDrop">DragAndDrop</Link>
               <Link to="/drag-drop">React Drag and drop</Link>
               <Link to="/react-qr-code">react-qr-code</Link>
               <Link to="/react-intl">react-intl</Link>
@@ -67,7 +69,8 @@ function App() {
               <Route path="/redux" element={<Redux />} />
               <Route path="/date-picker" element={<DatePickerPage />} />
               <Route path="/timer-picker" element={<ReactTimerPickerPage />} />
-              <Route path="/drag-drop" element={<ReactDragAndDrop />} />
+              <Route path="/react-drag-drop" element={<ReactDragAndDrop />} />
+              <Route path="/drag-drop" element={<DragAndDrop />} />
               <Route path="/react-qr-code" element={<ReactQRCode />} />
               <Route path="/react-intl" element={<ReactIntlPage />} />
               <Route path="/swr" element={<Swr />} />
